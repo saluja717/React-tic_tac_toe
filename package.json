@@ -10,6 +10,8 @@
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
+    "gh-pages": "^3.1.0",
+    "homepage": "https://saluja717.github.io/React-tic_tac_toe",
     "react": "^17.0.1",
     "react-countdown": "^2.3.1",
     "react-digital-clock": "^0.1.2",
@@ -20,6 +22,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

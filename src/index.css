@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
 #square
 {
   position: relative;
@@ -8,6 +10,7 @@
   padding-left: 10px;
   text-align: center;
   vertical-align: center;
+  user-select: none;
 }
 *
 {
@@ -18,6 +21,19 @@
 {
   width:100%;
   position: absolute;
+  transform:translate(50% 50%);
+  margin:0px auto;
+
+}
+#data
+{
+  position: relative;
+  font-size: 30px;
+  margin-bottom:50px;
+  width:100%;
+  text-align: center;
+  color: green;
+  font-family: 'Akaya Kanadaka', cursive;
 }
 #board
 {

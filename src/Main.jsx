@@ -66,7 +66,7 @@ const Main = () => {
         <>
 
         <div id="main">
-             <p id="data"></p>
+             <p id="data">hii goa</p>
             <div id="board" onClick={fun}>
                 <div id="square" className="0"></div>
                 <div id="square" className="1"></div>
